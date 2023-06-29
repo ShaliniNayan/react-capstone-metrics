@@ -1,0 +1,19 @@
+:root {
+  --primary-color: #0f171e;
+  --secondary-color: #1a242f;
+  --font-primary: #ffffff;
+  --font-secondary: #79b8f3;
+}
+
+body {
+  background-color: var(--primary-color);
+  color: var(--font-primary);
+}
+
+h1 {
+  color: var(--font-secondary);
+}
+
+.button {
+  background-color: var(--secondary-color);
+}
